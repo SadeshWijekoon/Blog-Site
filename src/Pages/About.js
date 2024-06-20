@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => (<div><h3>This is The About Page</h3>
+const About = () => (<div><h1>This is The About Page</h1>
 
 </div>);
 

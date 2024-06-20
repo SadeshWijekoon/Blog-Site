@@ -2,7 +2,7 @@ const ArticalList =()=>{
     return(
         
         <div>
-            <h3>This is  ArticalList</h3> 
+            <h1>This is  ArticalList</h1> 
         </div>
 
     )
