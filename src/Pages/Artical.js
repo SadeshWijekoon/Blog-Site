@@ -3,11 +3,11 @@
  
  const Artical = ()=>{
     const {articalId  } = useParams();
-    const artical=articals.find(artical=>artical.name===articalId)
+    const articale=articals.find(articale=>articale.name===articalId)
     return(
         <>
-        <h1>{artical.title}</h1>
-        {artical.content.map((paragraph,index)=>(
+        <h1>{articale.title}</h1>
+        {articale.content.map((paragraph,index)=>(
             <p key={index}>{paragraph}</p>
         ))}
         </>
