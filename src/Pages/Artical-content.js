@@ -1,5 +1,5 @@
 
-const articals = [
+const Articalcontent =[
     {
         name: 'learn-react',
         id:100,
@@ -77,5 +77,7 @@ const articals = [
         ]
     },  
 ];
+export default  Articalcontent;
 
-export default articals;
+
+    
