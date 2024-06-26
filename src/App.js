@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import Artical from './Pages/Artical'
 import ArticalList from './Pages/ArticalList'
 import Navbar from './Navbar'
+import NotFound from './Pages/NotFoud'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
     <Route path='/' element={<Home/>}/>
     <Route path='/artical' element={<ArticalList/>}/>  
     <Route path='/artical/:articalId' element={<Artical/>}/>
+    <Route path='*' element={<NotFound/>}/>
      </Routes>
     </div>
     </div>
